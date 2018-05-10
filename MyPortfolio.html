@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Site</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <Script src="js/jquery-3.1.1.min.js"></Script>
+  <Script src="js/bootstrap.min.js"></Script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+</head>
+
+<!-- Body start -->
+<body>
+  <header><!-- header start -->
+    <nav id="header-nav">
+      <div class="container">
+        <a href="index.html" class="pull-left">
+            <img id="logo-img" class="col-md-6 col-lg-6" src="img/logo1.jpg" alt="logo-image">
+        </a>
+        <div class="navbar-brand col-md-6 col-lg-6 pull-right">
+          <h1>lekshmi sasidharan</h1>
+          <h2>web developer</h2>
+        </div>
+      </div>
+    </nav>
+  </header><!-- header ends -->
+
+<!-- Main content start -->
+  <div id="main-content" class="container">
+    <div id="divider" class="row">
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="img/img1.jpg" class="img-rounded" alt="portfolio-image" width="100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Projects</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><a href="#"><img id="project-img" class="img-responsive" src="img/pixel.png" alt="pixel-image" data-toggle="modal" data-target="#project1"></a>
+        <h4 class="text-uppercase text-center">pixel art maker</h4>
+        <hr class="visible-xs visible-md">
+      </div>
+      <div class="col-md-4"><a href="#"><img id="project-img" class="img-responsive" src="img/tradingcard.jpg" alt="card-image" data-toggle="modal" data-target="#project2"></a>
+        <h4 class="text-uppercase text-center">trading card</h4>
+        <hr class="visible-xs">
+      </div>
+      <div class="col-md-4"><a href="#"><img id="project-img" class="img-responsive" src="img/project3.jpg" alt="game-image" data-toggle="modal" data-target="#project3"></a>
+        <h4 class="text-uppercase text-center">Black Jack Game</h4>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase" id="myModalLabel">pixel art maker</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h3>About</h3>
+            <p>Pixel art maker project was done as part of the Google Udacity challege scholarship.It was the final project in the first half of the front-end Nanodegree</p>
+            <ul>
+              <li>HTML,CSS,javaScript</li>
+              <li>Sublime text editor,Browser Sync</li>
+            </ul>
+            <a href="https://codepen.io/LEKSHMISASIDHARAN/full/XEPxwG/" target="blank">Project link</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase">trading card</h4>
+          </div>
+          <div class="modal-body">
+            <h3>About</h3>
+            <p>Project was to make an animal trading card using html and css.</p>
+            <h3>Tools and Technologies</h3>
+            <ul>
+              <li>HTML,CSS</li>
+              <li>Sublime text editor,Browser Sync</li>
+            </ul>
+            <a href="https://codepen.io/LEKSHMISASIDHARAN/full/OZXXJZ/" target="blank">Project link</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-uppercase">Black Jack game</h4>
+          </div>
+          <div class="modal-body">
+            <iframe width="100%" height="345" src="https://www.youtube.com/embed/jAxdtXC6hFc?controls=1"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Main content ends -->
+
+<!-- Footer start -->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <div id="links" class="col-sm-4 col-md-4 text-center">
+          <a href="mailto:lekshmiajith11@gmail.com?Subject=Hello%20" target="blank">Contact</a>
+          <hr class="visible-xs">
+        </div>
+        <div id="socialmedia-icons" class="col-sm-4 col-md-4 text-center">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/lekshmi-sasidharan-14b05b74/" target="blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/Lekshmisasidharan" target="blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="mailto:lekshmiajith11@gmail.com?Subject=Hello%20" target="blank"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+          </ul>
+          <hr class="visible-xs">
+        </div>
+        <div id="resume-download" class="col-sm-4 col-md-4 text-center">
+          <a id="resume-btn" class="btn btn-bd-yellow" href="img/resume.docx" download>Resume <i class="fa fa-download" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="text-center">&copy; lekshmi 2018</div>
+    </div>
+  </footer><!-- Footer ends -->
+</body>
+<!-- Body ends -->
+
+</html>

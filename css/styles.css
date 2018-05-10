@@ -1,0 +1,58 @@
+body{
+	background-color: #61122f;
+	margin :0;
+
+}
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border :0;
+}
+h1{
+	color:orange;
+	font-family: fantasy,Helvetica,Georgia,sans-serif;
+}
+
+#chicken-div{
+	background-color:grey;
+	margin-bottom: 10px;
+}
+#beef-div{
+	background-color:grey;
+	margin-bottom: 10px;
+}
+#sushi-div{
+	background-color:grey;
+	margin-bottom: 10px;
+}
+h3{
+	color: white;
+}
+
+.navbar-brand p{
+	color:#008000;
+	font-size: 30px;
+	text-align: left;
+
+}
+.navbar-header button.navbar-toggle{
+	vertical-align: middle;
+	border-color: purple;
+}
+#nav-list a{
+	
+	font-size:20px;
+	color: purple;
+	border:1px solid purple;
+
+}
+#nav-list a:hover{
+	background-color:#e7e7e7;
+}
+.navbar-collapse{
+clear: both;
+border: 0;
+}
+
+
+

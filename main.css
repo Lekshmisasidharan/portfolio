@@ -1,0 +1,130 @@
+body {
+  font-family: "Raleway", "Lato", sans-serif;
+}
+
+a,a:hover,a:active,a:visited,a:focus {
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 0;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+}
+
+/**LOGO IMAGE**/
+#logo-img {
+  margin: 10px 15px 10px 0;
+  height: 140px;
+  width: 140px;
+}
+
+/**NAME**/
+.navbar-brand h1 {
+  color: #000;
+  font-weight: bold;
+  font-size: 2.7rem;
+  margin-top: 15px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.navbar-brand h2 {
+  color: #3ff;
+  font-family: cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: right;
+  text-transform: uppercase;
+}
+/**END HEADER**/
+
+/* FOOTER */
+.panel-footer {
+  background-color: #222;
+  border-top: 0;
+  color: white;
+  margin-top: 30px;
+  padding: 30px 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#socialmedia-icons ul {
+  padding-left: 0;
+}
+
+#socialmedia-icons ul li {
+  display: inline;
+  list-style-type: none;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+#resume-btn {
+  border-color: #ffe484;
+  border-radius: 5px;
+  color: white;
+}
+
+#resume-btn:hover {
+  background-color: #ffe484;
+  color: black;
+}
+/* END FOOTER */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #project-img {
+    width: 100%;
+    min-height: 300px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #project-img {
+    width: 100%;
+    min-height: 300px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #project-img {
+    width: 100%;
+    min-height: 300px;
+  }
+
+  h4 {
+    margin-bottom: 20px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #logo-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-top: 5px;
+  }
+
+  .navbar-brand h2 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-family: cursive;
+  }
+}
