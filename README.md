@@ -1,1 +1,1 @@
-# portfolio project -Google Udacity frond end nano degree
+# portfolio project -Google Udacity front-end Nanodegree
