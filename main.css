@@ -12,7 +12,7 @@ hr {
 
 /** HEADER **/
 #header-nav {
-  background-color: white;
+  background-color: #fff;
   border-radius: 0;
   border: 0;
 }
@@ -20,15 +20,14 @@ hr {
 /**LOGO IMAGE**/
 #logo-img {
   margin: 10px 15px 10px 0;
-  height: 140px;
-  width: 140px;
+  height: 125px;
+  width: 125px;
 }
 
 /**NAME**/
 .navbar-brand h1 {
   color: #000;
-  font-weight: bold;
-  font-size: 2.7rem;
+  font: bold 2.7rem Lato;
   margin-top: 15px;
   text-transform: uppercase;
   text-align: right;
@@ -36,19 +35,29 @@ hr {
 
 .navbar-brand h2 {
   color: #3ff;
-  font-family: cursive;
-  font-size: 2.5rem;
-  font-weight: bold;
+  font:bold 2.5rem cursive;
   text-align: right;
   text-transform: uppercase;
 }
 /**END HEADER**/
 
+/**MAIN CONTENT**/
+#image-portfolio {
+  width: 100%;
+  height: auto;
+}
+
+#project3-video {
+  width: 100%;
+  height: 345px;
+}
+/**END MAIN CONTENT**/
+
 /* FOOTER */
 .panel-footer {
   background-color: #222;
   border-top: 0;
-  color: white;
+  color: #fff;
   margin-top: 30px;
   padding: 30px 0;
 }
@@ -72,18 +81,18 @@ hr {
 #resume-btn {
   border-color: #ffe484;
   border-radius: 5px;
-  color: white;
+  color: #fff;
 }
 
 #resume-btn:hover {
   background-color: #ffe484;
-  color: black;
+  color: #000;
 }
 /* END FOOTER */
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  #project-img {
+  .project-img {
     width: 100%;
     min-height: 300px;
   }
@@ -91,7 +100,7 @@ hr {
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  #project-img {
+  .project-img {
     width: 100%;
     min-height: 300px;
   }
@@ -99,7 +108,7 @@ hr {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  #project-img {
+  .project-img {
     width: 100%;
     min-height: 300px;
   }
@@ -117,14 +126,11 @@ hr {
   }
 
   .navbar-brand h1 {
-    font-weight: bold;
     font-size: 1.7rem;
     margin-top: 5px;
   }
 
   .navbar-brand h2 {
-    font-weight: bold;
     font-size: 1.7rem;
-    font-family: cursive;
   }
 }
